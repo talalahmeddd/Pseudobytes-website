@@ -2607,6 +2607,12 @@ textarea.is-invalid {
     }
 }
 
+.col-auto.d-none.d-lg-block {
+  display: flex;
+  align-items: center;
+  gap: 20px; /* Adjust the gap as needed */
+}
+
 .th-btn.btn-fw {
     width: 100%;
 }
