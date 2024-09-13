@@ -2608,9 +2608,10 @@ textarea.is-invalid {
 }
 
 .col-auto.d-none.d-lg-block {
-  display: flex;
-  align-items: center;
-  gap: 20px; /* Adjust the gap as needed */
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    /* Adjust the gap as needed */
 }
 
 .th-btn.btn-fw {
@@ -6320,7 +6321,7 @@ a.text-theme:hover,
 }
 
 .header-button {
-    height: 100%;
+    height: 150%;
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -6330,6 +6331,7 @@ a.text-theme:hover,
     -ms-flex-align: center;
     align-items: center;
     gap: 10px;
+    font-size: 50px;
 }
 
 .header-button .icon-btn {
